@@ -1,3 +1,5 @@
+(function() {
+
 var pics = [
   ["https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/s720x720/1010935_10201431092081899_1336675385_n.jpg?oh=ab142dbbcbdb7d3a398d5a731ab488b9&oe=54F9A894&__gda__=1426640813_027754f58444a4b134d8ddf72320df43", "Steven Spielberg?"],
   ["https://scontent-b-ord.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/1910118_1206576855137_6408687_n.jpg?oh=568517833116b4a12c1f188a0634e522&oe=550906FB","Chris drinks coke straight from the bottle."],
@@ -42,3 +44,5 @@ for(var i = 0; i < pics.length; i++) {
   
   picsList.appendChild(li);
 }
+
+})();
